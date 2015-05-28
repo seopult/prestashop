@@ -1,9 +1,13 @@
 # SeoPult
 
 Tags: seopult, seo, traffic, top10
+
 Requires at least: 1.5
+
 Tested up to: 1.6.0.14
+
 Stable tag: 1.0.0
+
 License: GNU General Public License, version 2
 
 **SeoPult** — сервис самостоятельного автоматизированного продвижения сайтов в ТОП10 поисковых систем Яндекс и Google, а
