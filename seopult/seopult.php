@@ -187,15 +187,15 @@ class Seopult extends Module {
 
 	public function renderPassword()
 	{
-		$inputs[0] = array('type' => 'text', 'label' => 'E-mail', 'required' => true, 'desc' => 'Введите email Администратора сайта для восстановления доступа к SeoPult<br/><br/>
+		$inputs[0] = array('type' => 'text', 'label' => 'E-mail', 'required' => true, 'desc' => 'Введите email для восстановления доступа к SeoPult<br/><br/>
 <button class="btn btn-default button button-medium exclusive" type="submit" id="SubmitPassword" name="SubmitPassword"
 style="font-style: normal; background-color: #00aff0;  box-shadow: none;">
 							<span>
-							Оправить пиcьмо
+							Выслать код подтверждения
 								<i class="icon-mail-reply right"></i>
 							</span>
 						</button>', 'name' => 'passwordemail', 'col' => '4');
-		$inputs[1] = array('type' => 'text', 'label' => 'Код подтверждения', 'desc' => 'Введите сюда полученный код в письме<br/><br/>
+		$inputs[1] = array('type' => 'text', 'label' => 'Код подтверждения', 'desc' => 'Введите полученный код в письме<br/><br/>
 <button class="btn btn-default" type="submit" id="SaveHash" name="SaveHash">'.$this->l('Готово!').'<i class="process-icon-save"></i>
 						</button>', 'name' => 'password', 'col' => '4',);
 		$fields_form = array('form' => array('legend' => array('title' => 'Восстановление доступа к SeoPult', 'icon' => 'icon-cogs'), 'input' => $inputs,));
